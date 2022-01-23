@@ -1,0 +1,1 @@
+python train.py --img 640 --batch 4 --epochs 10 --data 'roadcrack.yaml' --cfg yolov5sroadcrack.yaml --hyp hyp.roadcrack.yaml --weights yolov5s.pt --workers 1 --name yolo_roadcrack
